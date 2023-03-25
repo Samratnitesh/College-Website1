@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="next1.js"></script>
+    <style>
+        body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+  color: #c38ec3;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin-left: 60px;
+  margin-right: 50px;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #aa0404;
+  color: white;
+}
+.slider {
+  width: 100%;
+  height: 510px;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  height: 500px
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slider img:first-child {
+  z-index: 1;
+}
+
+.slider img:nth-child(2) {
+  z-index: 0;
+}
+.navigation-button {
+  text-align: center;
+  position: relative;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;}
+  .shallu{
+    margin-left: 60px;
+    margin-right: 50px;
+    
+  }
+  .secondlast{
+    margin-left: 60px;
+    margin-right: 50px;
+  }
+  .noti{
+    
+    width: 50%;
+    border-radius: 6px;
+    border-color: black;
+    
+    float: left;
+    padding: 20px;
+    
+  }
+  
+  .noti a{
+    text-decoration: none;
+    color: black;
+  }
+  .noti a :hover{
+    background-color: red;
+  }
+  .last{
+    margin-left: 60px;
+    margin-right: 50px;
+    border-radius: 6px;
+    border-color: Grey;
+    background: #0c0b0a;
+  }
+  .foot{
+    width: 25%;
+    border-radius: 6px;
+    border-color: black;
+    
+    float: left;
+    padding: 20px;
+  }
+  .foot a{
+    text-decoration: none;
+    color: black;
+  }
+  .foot a :hover{
+    color: brown;
+  }
+  .nattu{
+    margin-left: 60px;
+    margin-right: 50px;
+  }
+ 
+  a:hover{
+    color: brown;
+  }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <div class="con">
+        <div class="logo">
+            <img src="slietlogo.png" alt="slietlogo" width="120"/>
+            </div>
+            <h1>Sant Longowal Institute of Engineering and Technology </h1>
+            <h5>(Demmed-to-be University,Under MOE,Govt.of India) </h5>
+    </div>
+    <br>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="Academic.html">Academics</a>
+  <a href="#news">Admission</a>
+  <a href="#news">Facilities</a>
+  <a href="#news">Department</a>
+  <a href="#news">Student Zone</a>
+  <a href="#news">Placement</a>
+  <a href="#news">Alumni</a>
+  <a href="About.html">About Us</a>
+  <a href="#contact">Contact Us</a>
+</div>
+<br>
+<div class="shallu">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="SLIET_Longowal_Main_Building.jpg" class="d-block w-100" alt="..." height="500px" width="700px">
+    </div>
+    <div class="carousel-item">
+      <img src="Screenshot (1).png" class="d-block w-100" alt="..." height="500px" width="700px">
+    </div>
+    <div class="carousel-item">
+      <img src="images.jpg" class="d-block w-100" alt="..." height="500px" width="700px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div></div>
+<br>
+    <div class="secondlast">
+      <div class="noti">
+        <h4>Notifications</h4>
+        <a href="#">Institute Innovation Cell: Progress Presentation of Projects - Phase-II</a><br><br>
+        <a href="#">Invitation and Schedule for Techfest 2023</a><br><br>
+        <a href="#">Institute Innovation Cell: Progress presentation of the Projects</a><br><br>
+        <a href="#">Circular regarding register to Extra Academic Activities</a><br><br>
+        <a href="#">Notice regarding the Official Social Media Handles of SLIET</a><br><br>
+        <a href="#">National Science Week -2023 during 23-25 February 2023 organized by SLIET Science club</a><br><br>
+        <a href="#">Office Order regarding CAS-2022, Preliminary Screening Committee Report (Level-2)</a><br><br>
+        <a href="#">Office Order regarding CAS-2022, Preliminary Screening Committee Report (Level-2)</a><br><br>
+      </div>
+      <div class="noti">
+        <h4>Announcements</h4>
+        <a href="#">Re-advertisement of Junior Research Fellow in ECE Department under SERB, DST, Govt. of India
+          .</a><br><br>
+        <a href="#">Registration for SET-2023 is open on 20.03.2023 and shall close on 15.05.2023</a><br><br>
+        <a href="#">Advt. for one post of Project Associate in ECE Department under Research Project SERB, New Delhi
+          .</a><br><br>
+        <a href="#">6th National Conference on Advanced Materials & Radiation Physics (AMRP-2023)” rescheduled (May 18th -19th, 2023) organized by Physics Department</a><br><br>
+        <a href="#">One Week Value-added Course on “Computational and Presentation Skills (CPS-2023)” during March 06th to March 10th, 2023</a><br><br>
+        <a href="#">ATAL sponsored Two Weeks' Faculty Development Program (FDP) on Current Avenues in Communication and VLSI Design organized by Deptt. of ECE SLIET Longowal during February 13-24, 2023 in Blended/Hybrid Mode.
+        </a><br><br>
+      </div>
+    </div>
+    <div class="nattu">
+      <h4>Recent Highlights</h4><br>
+      <div class="nat">
+      <div class="card" style="width: 18rem;">
+        <img src="Screenshot (1).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Techfest'23</h5>
+          <p class="card-text">Techfest 2023 is going on right now between 24th March to 25th March.</p>
+          <a href="https://techfestsliet.org" class="btn btn-danger">Go to site</a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <div class="last">
+         <div class="foot">
+          <h4>Information About</h4><hr>
+          <a href="#">SLIET College</a><br>
+          <a href="#">SLIET's Research</a><br>
+          <a href="#">Library</a><br>
+          <a href="#">Sport at SLIET</a><br>
+          <a href="#">Academic Calender</a><br>
+          <a href="#">Tender</a><br>
+          <a href="#">Vacancy</a><br>
+         </div>
+         <div class="foot">
+          <h4>Employee Corner</h4><hr>
+          <a href="#">Rule & Regulation</a><br>
+          <a href="#">Office Order</a><br>
+          <a href="#">Grieverance Redresal Committee</a><br>
+          <a href="#">Login</a><br>
+         </div>
+         <div class="foot">
+          <h4>Cells</h4><hr>
+          <a href="#">Scholarship Cell</a><br>
+          <a href="#">Annual Report 2020-21</a><br>
+          <a href="#">SPIC MACAY</a><br>
+          <a href="#">IC Committee</a><br>
+          <a href="#">Student's Mentor & TG Scheme</a><br>
+          <a href="#">SC-ST & OBC-EWS</a><br>
+         </div>
+         <div class="foot">
+          <h4>Useful Links</h4><hr>
+          <a href="#">RTI</a><br>
+          <a href="#">Alumni</a><br>
+          <a href="#">DASA Admission</a><br>
+          <a href="#">Anti Ragging (UGC website)</a><br>
+         </div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="next1.js"></script>
+        
+          
+  </body>
+</html>
